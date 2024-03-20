@@ -1,0 +1,55 @@
+@media screen and (max-width:600px) {
+
+    /* nav title tag start  */
+    .nav {
+        padding: 15px 20px;
+    }
+
+    .nav-title>ul a {
+        display: none;
+    }
+
+    .checkbtn {
+        display: flex;
+    }
+
+    /* nav title tag end */
+    /* section title tag start  */
+    .banner-tixt {
+        margin: 0px 20px;
+        text-align: center;
+    }
+
+    .banner-tixt h1 {
+        padding: 66px 32px 0px 66px;
+        font-size: 22px;
+        font-weight: 800;
+    }
+
+    .banner-tixt p {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .input-title ul {
+        display: block;
+        gap: 50px;
+    }
+    .input-title{
+        margin-left: 24px;
+        margin-right: 24px;
+        margin-bottom: 32px;
+    }
+    .input-title input  {
+        padding: 15px 0px 10px 10px;
+        margin-bottom: 20px;
+    }
+    .btn-primay{
+        padding: 15px 205px;
+    }
+
+
+    /* section title tag end */
+
+
+}
