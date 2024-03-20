@@ -50,6 +50,13 @@
 
 
     /* section title tag end */
+    /* banner section title tag start  */
+    .banner{
+        flex-direction: column;
+        padding: 24px 20px;
+        gap: 24px;
+    }
+    /* banner section title tag end */
 
 
 }
