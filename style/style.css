@@ -8,6 +8,7 @@
 
 body {
     font-family: "Mulish", sans-serif;
+    max-width: 1600px;
 }
 
 /* font-family title tag to css start end  */
@@ -199,14 +200,96 @@ body {
     line-height: 26px;
     margin-bottom: 48px;
 }
-.choose-img{
+
+.choose-img {
     padding: 10px 135px;
 }
-.img-row{
+
+.img-row {
     display: flex;
-    
     gap: 24px;
     margin-bottom: 24px;
 }
 
 /* choose banner title tag end */
+/* box title banner tag start  */
+
+
+.box-title h3 {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.box-title p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 48px;
+}
+
+.hotel-banner {
+    display: flex;
+    gap: 24px;
+    margin: 30px 135px;
+
+}
+
+.hotel-banner-two {
+    margin: 0px 433px;
+}
+
+.hotel {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+
+}
+
+.hotel i {
+    margin-top: 32px;
+    margin-left: 32px;
+    margin-bottom: 32px;
+
+}
+
+.hotel h3 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-left: 32px;
+    margin-bottom: 16px;
+}
+
+.hotel p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: 32px;
+    margin-right: 55px;
+    margin-bottom: 32px;
+}
+
+/* box title banner tag end */
+
+
+
+/* footer title tag end  */
+.footer-title {
+    display: flex;
+    text-align: center;
+}
+
+footer-title h2 {
+    color: #FF5400;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+/* footer title tag end */
