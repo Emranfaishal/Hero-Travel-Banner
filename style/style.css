@@ -276,6 +276,42 @@ body {
 }
 
 /* box title banner tag end */
+/* simple banner title tag start  */
+.simple{
+    display: flex;
+    margin: 50px 135px;
+    gap: 30px;
+}
+.simple-text h1 {
+    color: #131318;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    margin-top: 20px;
+
+}
+
+.simple-text p {
+    color: #5A5A5D;
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.simple-text>ul li {
+    margin-top: 24px;
+    margin-bottom: 42px;
+    color:black;
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.simple-img img{
+    width: 610px;
+height: 424px;
+}
+
+/* simple banner title tag end */
 
 
 

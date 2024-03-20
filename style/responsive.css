@@ -81,7 +81,7 @@
     .choose-img {
         padding: 0px 20px;
 
-    } 
+    }
 
     .img-row img {
         height: 300px;
@@ -94,22 +94,39 @@
 
     /* choose banner img title tag end */
     /* box title tag start  */
-    .box-title h3{
-          padding: 0px 40px;
-          font-size: 20px;
+    .box-title h3 {
+        padding: 0px 40px;
+        font-size: 20px;
     }
-    .box-title p{
-          margin: 10px 40px;
+
+    .box-title p {
+        margin: 10px 40px;
     }
+
     .hotel-banner {
         flex-direction: column;
         margin: 0px 20px;
     }
-    .hotel-banner-two{
+
+    .hotel-banner-two {
         margin: 0px 20px;
         margin-top: 24px;
     }
+
     /* box title tag end */
+    /* simple title tag start  */
+    .simple {
+        flex-direction: column;
+        margin: 0px 20px;
+    }
+    .simple img{
+        width: 556px;
+        height: 300px;
+
+    }
+
+
+    /* simple title tag end */
 
 
 }
