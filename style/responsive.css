@@ -48,7 +48,7 @@
     }
 
     .btn-primay {
-        padding: 15px 190px;
+        padding: 15px 200px;
     }
 
 
@@ -131,7 +131,7 @@
     /* newsletter section title tag start  */
     .newsletter {
         flex-direction: column;
-        margin: 0px 20px;
+        margin: 20px 20px;
         justify-content: center;
 
     }
@@ -145,12 +145,20 @@
         height: 300px;
 
     }
+    .Travel {
+        width: 265px;
+        margin-bottom: 70px;
+    }
+
+    .Travel h1 {
+        font-size: 13px;
+    }
+    
 
     /* newsletter section title tag send */
     /* footer title tag start  */
     .hero{
         margin: 0px 150px;
-        padding-top: 30px;
     }
     .footer-tixt p {
         text-align: center;

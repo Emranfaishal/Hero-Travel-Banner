@@ -383,8 +383,8 @@ body {
 /* newspaper section title tag end */
 
 /* Travel title tag start  */
-/* .newxlatter-img img{
-    height: 80%;
+.newxlatter-img img{
+    height:100%;
     width: 100%;
 
 }
@@ -393,9 +393,11 @@ body {
     background: #FF5400;
     padding: 5px 10px;
     width: 324px;
-    border: 3px solid seagreen;
+
     position: relative;
-    bottom: 100%;
+    transform: rotate(-19.628deg);
+    margin-top: -27%;
+    left: 47%;
 }
 
 .Travel p {
@@ -413,7 +415,7 @@ body {
     text-align: center;
     font-size: 32px;
     font-weight: 800;
-} */
+}
 
 /* Travel title tag end */
 
