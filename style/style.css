@@ -277,11 +277,12 @@ body {
 
 /* box title banner tag end */
 /* simple banner title tag start  */
-.simple{
+.simple {
     display: flex;
     margin: 50px 135px;
     gap: 30px;
 }
+
 .simple-text h1 {
     color: #131318;
     font-size: 40px;
@@ -301,31 +302,186 @@ body {
 .simple-text>ul li {
     margin-top: 24px;
     margin-bottom: 42px;
-    color:black;
+    color: black;
     margin-left: 20px;
     font-size: 16px;
     font-weight: 400;
 }
-.simple-img img{
+
+.simple-img img {
     width: 610px;
-height: 424px;
+    height: 424px;
 }
 
 /* simple banner title tag end */
-
-
-
-/* footer title tag end  */
-.footer-title {
+/* newspaper section title tag start  */
+.newsletter {
     display: flex;
-    text-align: center;
+    margin: 50px 135px;
+    gap: 24px;
 }
 
-footer-title h2 {
+.newsletter-text {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    width: 500px;
+}
+
+.newsletter hr {
+    width: 393px;
+    height: 1px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 24px;
+}
+
+.newsletter-text h3 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 16px;
+    margin-bottom: 24px;
+}
+
+.newsletter-text p {
+    color: #5A5A5D;
+    margin-bottom: 24px;
+    width: 350px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 40px;
+}
+
+.newsletter input {
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 24px;
+    padding: 16px 20px;
+    width: 350px;
+    border: none;
+}
+
+.Subscribe {
+    border-radius: 8px;
+    background: #FF5400;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 24px;
+    padding: 16px 20px;
+    width: 393px;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+/* newspaper section title tag end */
+
+/* Travel title tag start  */
+/* .newxlatter-img img{
+    height: 80%;
+    width: 100%;
+
+}
+.Travel {
+    border-radius: 16px;
+    background: #FF5400;
+    padding: 5px 10px;
+    width: 324px;
+    border: 3px solid seagreen;
+    position: relative;
+    bottom: 100%;
+}
+
+.Travel p {
+    color: #FFF;
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 0px;
+}
+
+.Travel h1 {
+    color: #FFF;
+    padding: 10px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+} */
+
+/* Travel title tag end */
+
+/* footer title tag end  */
+footer {
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding-top: 110px;
+    margin-left: 555px;
+    margin-right: 550px;
+    margin-bottom: 15px;
+
+}
+
+.hero span {
     color: #FF5400;
+}
+
+.hero h2 {
+    color: #131318;
     text-align: center;
     font-size: 32px;
     font-weight: 800;
 }
+
+.footer-hero {
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-tixt h3 {
+    color: #131318;
+    text-align: center;
+    padding-top: 110px;
+    margin-bottom: 15px;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.footer-tixt p {
+    color: #5A5A5D;
+    padding: 0px 336px;
+    margin-bottom: 33px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.icon {
+    text-align: center;
+    margin-bottom: 50px;
+    gap: 40px;
+}
+
+.hr {
+    margin: 50px 284px;
+}
+
+.footer-tixt .rights {
+    padding-bottom: 50px;
+    padding-bottom: 110px;
+}
+
 
 /* footer title tag end */
